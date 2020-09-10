@@ -11,7 +11,6 @@ Then through a series of events, conversation topics, and hidden map clues, you 
 
 He comes complete with four configurable variants (light, dark, auburn, and purple), dialogue, heart events, and possibly soon some unique items.
 His schedule will also influence that of other characters, specifically on the weekend.
-And there will be some rival heart stuff to come.
 
 CURRENTLY INCLUDED:
 - full ability to unlock Tristan (if above conditions met)
@@ -21,11 +20,13 @@ CURRENTLY INCLUDED:
 - his house in East Scarpe
 - marriage dialogue
 - new 10-heart event for Mr Ginger
+- basic schedule
 
 TO COME:
 - 14-heart event
 - special items
-- more heart events
+- more refined schedule
+- more events, including rival hearts
 - improved marriage dialogue
 - marriage schedule
 - wedding sprites
