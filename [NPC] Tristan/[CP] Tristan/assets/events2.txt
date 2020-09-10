@@ -1,0 +1,74 @@
+"Data/Events/Aquarium":
+"Entries": {
+	"5295100/e 5295000/n Donated:Flounder": "50s/X Y/farmer MisterGinger Jas/skippable/pause 500/speak MisterGinger \"(singing)I gonna eat you little fishies...$1\"/pause 500/faceDirection Jas 3/textAboveHead Jas \"Shhhh!\"/speak Jas \"You can't sing that in here, Dad... What if they throw us out!$4\"/pause 500/speak MisterGinger \"Sorry kitten, I'm only teasing.#$b#Although I do seem to remember you enjoyed the fish tacos last night.$6\"/pause 500/speak Jas \"That's different! They weren't alive... and they weren't looking at us!$4\"/pause 500/move farmer X Y 0/faceDirection MisterGinger 2/faceDirection Jas 2/speak Jas \"Farmer @! This place is amazing!\"/pause 500/speak MisterGinger \"I'm just glad they let me in through the front door.\"/pause 500/speak MisterGinger \"I mentioned we were your friends, and the Curator couldn't praise you enough!#$b#Seems like you've got quite the fanbase, @.\"/
+
+AnimalShop
+
+Marnie 13 14 2 farmer 13 16 0 Jas 2 7 3 MisterGinger 3 7 3 Shane -100 -100 0/addConversationTopic TristanShaneTruce 7/skippable/pause 500/speak MisterGinger \"'...and when morning dawned, there at the foot of the bed, slept not a small black cat, but a beautiful princess.'\"/pause 500/emote Jas 56/pause 1500/speak Jas \"...And they all lived happily ever after.\"/pause 500/speak MisterGinger \"They did indeed. Now, it's time to sleep, kitten.$4\"/pause 500/speak Jas \"Okay. Goodnight Dad\"/pause 500/showFrame Jas 25/emote MisterGinger 20/playSound doorClose/warp Shane 13 19/move Shane 0 -1 0/faceDirection farmer 2/textAboveHead Marnie \"Hi Shane.\"/textAboveHead Shane \"Hey. Jas awake?\"/emote Marnie 32/move Shane -7 0 0 true/faceDirection farmer 0/advanced move MisterGinger 3 0 0 4/pause 1000/move Shane 0 -3 0/doAction 6 12/playSound doorOpen/move MisterGinger 0 1 2/pause 500/jump Shane 5/textAboveHead MisterGinger \"Hello Shane\"/move Shane 0 2 3/emote Shane 12/move MisterGinger 0 2 1/speak Shane \"You've got some gall waltzing back into her life and acting as if you live here. Like you didn't abandon her.\"/shake MisterGinger 240/speak MisterGinger \"Abandon her? I've been here since she was a toddler, Shane.$5#$b#And I would've been here earlier... if I'd been able.$2\"/speak Shane \"Oh yeah, that's right? Because the wicked witch turned you into a cat.$5#$b#What did you do with Mr Ginger, Tristan? I... I hope you didn't hurt him.$2\"/speak MisterGinger \"Hurt him? Oh Shane, what'll it take to make you believe us?$2\"/move MisterGinger 0 -1 1/speak MisterGinger \"We should've invited you, you could've seen it with your own eyes.#$b#Hard to argue with that.$5\"/faceDirection MisterGinger 3/speak MisterGinger \"I tried to help you, you know. But there's only so much I could do with four paws.$2#$b#And dropping dead mice in your beer and pushing cans off the table wasn't enough of a hint.$2\"/Shane emote 16/speak Shane \"Cats are jerks. That doesn't prove anything.$5\"/faceDirection MisterGinger 1/pause 500/speak MisterGinger \"She'd read to me, and we'd pretend to be wild things. She loves monsters, even back when she was scared of the dark.#$b#Her favorite color is green. She loves melon cake, and fairy roses, and made me promise to never hunt blue jays in case I hurt her friend, Jeremy. As if I'd ever do anything to upset her!\"/faceDirection Shane 1/pause 500/speak MisterGinger \"What happened between us? We were best friends... Roomies... Blood brothers! And now it's like we're strangers.$5\"/speak Shane \"What happened? YOU dated my sister. And you abandoned her... Abandoned us.$2\"/shake Shane 300/jump MisterGinger/move MisterGinger 0 1 1/pause 500/speak MisterGinger \"I miss her too, Shane. Like an ache in my heart that nothing'll ever fill.#$b#It was easier, as a cat... They don't feel the way people do.#$b#She's my daughter, Shane. And I want to be her dad... but I'm never going to take her away from you. I promise.#$b#A lot of kids have two parents, after all; some even have two dads.#$b#But I'd rather be the kind that actually talk to each other.#$b#So... truce?\"/faceDirection Shane 3/Shane emote 40/pause 1000/textAboveHead Shane \"Truce\"/animate Shane true true 1000 26 26/speak MisterGinger \"I missed you Shane.$2\"/end"
+
+Receive a letter in the mail:
+
+"Want to join me on an adventure? I've always wanted to watch the sunset from the top of Mt. Evermore, and I'd love someone to keep me out of trouble.
+If it's a 'yes', meet me by the stone bridge am hour before sunset and wear good walking shoes!^Yours, Tristan.
+
+
+"Data/Events/EastScarpe",
+"Entries":{
+5295012/n Tristan_MtEvermore/D MisterGinger/t 1700 1800/d sun/w sunny":
+
+"archaeo/58 38/MisterGinger 64 35 0 farmer 61 40 0/skippable/pause 500/emote MisterGinger 56/pause 500/move farmer 0 -6 1/pause 500/faceDirection MisterGinger 3/speak MisterGinger \"Ah @, you came! Ready to ascend Mt Evermore?$3#$b#I hear the view is quite spectacular!$1\"/pause 500/emote farmer 32/pause 500/speak MisterGinger \"Right, let's go!\"/move farmer 2 0 0/pause 500/move MisterGinger 0 -13 0 true/move farmer 0 -13 0 true/pause 3000/fade/viewport -1000 -1000/stopMusic/changeToTemporaryMap MtEvermore/warp farmer 15 25/warp MisterGinger 16 25/message \"It's a very steep climb!\"/pause 500/viewport 13 21/ambientLight 1 80 40/move MisterGinger 0 -8 3 true/move farmer 0 -8 1/pause 2000/speak MisterGinger \"We made it! That was quite a hike, wasn't it?#$b#I'm not sure my legs will ever be the same again.$2\"/viewport move 0 -2 2000/move MisterGinger 0 -8 3 true/move farmer 0 -8 0/pause 2000/speak MisterGinger \"Are you ready for the most spectaular sunset in Ferngill?\"/faceDirection farmer 0/pause 500/emote farmer 28/pause 500/emote MisterGinger 8/faceDirection MisterGinger 0/jump MisterGinger 5/screenFlash 1/emote MisterGinger 16/faceDirection MisterGinger 3 true/faceDirection farmer 1 true/playSound thunder/speak MisterGinger \"Quick! The cabin!$7\"/speed MisterGinger 5/move MisterGinger 0 8 2 true/pause 500/speed farmer 5/move farmer 0 6 2/fade/viewport -100 -100/warp MisterGinger -1000 -1000/warp farmer -1000 -1000/playSound doorOpen/playSound rain/speak MisterGinger \"In here!\"/pause 500/playSound doorClosed/changeToTemporaryMap MtCabin/warp farmer 5 8/warp MisterGinger 4 9/faceDirection MisterGinger 0/addLantern 735 3 4 2/viewport 5 6/speak MisterGinger \"Phew, that was close! I hate water.$2\"/pause 500/faceDirection MisterGinger 3 true/faceDirection farmer 1/pause 500/move MisterGinger 0 -1 1/faceDirection farmer 3/speak MisterGinger \"Rustic, isn't it?\"/shake farmer 350/pause 500/speak MisterGinger \"Sorry @. I didn't mean to drag you all the way up here and trap you in a storm.$2#$b#This is very much not my idea of a good time.#$b#$q 529599 null#Oh, you're shivering..."#$r 529598 50 Tristan_Snuggle#We could snuggle for warmth#$r 529597 50 Tristan_Fire#We should light the fire\"/fork 529597 Tristan_FireLight/pause 500/speak MisterGinger \"Oh!$7#$b#Come here, I don't have fur anymore, but I'll keep you warm.\"/faceDirection farmer 1/positionOffset farmer -10 0/showFrame MisterGinger 28/speak MisterGinger \"I've got a confession to make, @. I know we said that 'love' didn't have to be about all that sappy-kissy stuff, and that's true.$3#$b#But since I've been back as, well, myself, I'm starting to feel more too.$4#$b#And human emotion is far more complicated than feline!$3#$b#But I have feelings for you, @. Like you've helped fill a place in my heart that I'd lost.$4\"/pause 500/speak MisterGinger \"$q -1 null#...$4#$r -1 0 Tristan_cabin1#I feel the same way about you.#$r -1 -25 Tristan_cabin2#I care for you too, but not in that way.\"/fork Tristan_FireLight/pause 500/emote MisterGinger 20/pause 500/faceDirection farmer 3/positionOffset MisterGinger 10 0/textAboveHead Mister \"<\"/pause 2000/end"
+
+
+
+"Data/Events/Temp",
+"Entries": {
+"Tristan_FireLight": "pause 500/speak MisterGinger \"Let's see if I can find some matches...\"/faceDirection MisterGinger 0/pause 500/fade/viewport -100 -100/warp MisterGinger 3 5/warp farmer 4 6/addLantern 114 3 4 3/viewport 5 6/pause 500/speak MisterGinger \"That's much better. Now, it looks like we might be here for a while... Would you like me to tell you a story?\"/pause 500/emote farmer 32/pause 500/speak MisterGinger \"Once upon a time, in a kingdom far, far from here, lived a queen who had, as her companion, a most magnificant cat...\"/fade/end dialogue MisterGinger \"Sorry that sunset didn't go as planned... we'll have to do it again sometime?"
+}
+
+"Tristan_Fire": "Oh yes, grand idea! That'll dry us off.",
+"Tristan_Snuggle":"Snuggle? Oh...",
+"Tristan_cabin1": "I'm so grateful to hear that.",
+"Tristan_cabin2": "Oh..#$b#Ah well, I'm sure it's only a passing fancy, and I'll get over it.$2#$b#Human emotions are so fleeting... Right, I should light the fire.$3",
+
+
+
+
+addLantern 114 3 4 5/  
+
+enter East Scarpe
+Start next to bridge
+Farmer walks up to bridge, Tristan is already waiting.
+Greets farmer
+walk together north along bridge, fade out and warp to summit. (maybe on a black screen "It's a very steep climb!")
+MisterGinger "We made it! That was quite a hike, wasn't it @. I don't know if I would've made it without you.#$b#Are we in time for the sunset?"
+Turns around, sees looming grey clouds.
+"Oh..."
+playSound Thunder 
+MisterGinger jump 5
+screenFlash white
+viewport -100 -100
+MisterGinger "Quick, the cabin!"
+playSound doorClose.
+changeLocation MtCabin.
+MisterGinger runs in, farmer close behind.
+MisterGinger "Phew that was close. Oh I hate water!"
+Pause looks around
+MisterGinger "Sorry @. I didn't mean to drag you all the way up here and trap you in a storm. Really! This is very much not my idea of a good time. Oh, you're shivering..."
+
+option:
+Can we snuggle for warmth?
+We should light the fire.
+
+Snuggle: "Snuggle? Oh?#$b#Oh! Come here, I don't have fur anymore... but I'll keep you warm.
+	
+Fire: "Oh yes, grand idea! That'll dry us off." Fiddles with fire. Add animated flame somehow, don't forget the light! 
+
+That's much better. Now, I have an idea... would you like me to tell you a story?
+pause
+farmer assents
+story begins, possibly a love story if first option chosen, fun story if second option, only one panel.
+
+
+
+
+

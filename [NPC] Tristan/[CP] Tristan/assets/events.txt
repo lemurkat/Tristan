@@ -1,0 +1,80 @@
+"Data/Events/Aquarium":
+"Entries": {
+	"5295100/e 5295000/n Donated:Flounder": "50s/X Y/farmer MisterGinger Jas/skippable/pause 500/speak MisterGinger \"(singing)I gonna eat you little fishies...$1\"/pause 500/faceDirection Jas 3/textAboveHead Jas \"Shhhh!\"/speak Jas \"You can't sing that in here, Dad... What if they throw us out!$4\"/pause 500/speak MisterGinger \"Sorry kitten, I'm only teasing.#$b#Although I do seem to remember you enjoyed the fish tacos last night.$6\"/pause 500/speak Jas \"That's different! They weren't alive... and they weren't looking at us!$4\"/pause 500/move farmer X Y 0/faceDirection MisterGinger 2/faceDirection Jas 2/speak Jas \"Farmer @! This place is amazing!\"/pause 500/speak MisterGinger \"I'm just glad they let me in through the front door.\"/pause 500/speak MisterGinger \"I mentioned we were your friends, and the Curator couldn't praise you enough!#$b#Seems like you've got quite the fanbase, @.\"/
+
+AnimalShop
+
+Marnie 13 14 2 farmer 13 16 0 Jas 2 7 3 MisterGinger 3 7 3 Shane -100 -100 0/addConversationTopic TristanShaneTruce 7/skippable/pause 500/
+speak MisterGinger \"'...and when morning dawned, there at the foot of the bed, slept not a small black cat, but a beautiful princess.'\"/pause 500/emote Jas 56/pause 1500/
+speak Jas \"...And they all lived happily ever after.\"/pause 500/
+speak MisterGinger \"They did indeed. Now, it's time to sleep, kitten.$4\"/pause 500/
+speak Jas \"Okay. Goodnight Dad\"/
+pause 500/showFrame Jas 25/emote MisterGinger 20/
+playSound doorClose/warp Shane 13 19/move Shane 0 -1 0/faceDirection farmer 2/textAboveHead Marnie \"Hi Shane.\"/textAboveHead Shane \"Hey. Jas awake?\"/emote Marnie 32/move Shane -7 0 0 true/advanced move MisterGinger 3 0 0 4/pause 1000/move Shane 0 -3 0/doAction 6 12/playSound doorOpen/move MisterGinger 0 1 2/pause 500/jump Shane 5/move Shane 0 2 3/
+
+Shane:
+
+13 19 0
+Farmer talking to Marnie in the kitchen
+Tristan finishes reading a book to Jas, bids her good night and exits her room, almost running into Shane.
+Both jump. 
+textAboveHead Tristan \"Hello Shane\"
+Shane emote stormcloud.
+Shane: "You've got some gall waltzing back into her life and acting as if you live here. Like you didn't abandon her."
+Tristan: "Abandon her? I've been here since she was a toddler, Shane. I would've been here earlier... if I'd been able."
+Shane: "Oh yeah, that's right? Because the wicked witch turned you into a cat. What did you do with Mr Ginger, Tristan? I... I hope you didn't hurt him.
+Tristan: "Hurt him? Oh Shane, what'll it take to make you believe us?$2#$b#We should've invited you, you could've seen it with your own eyes.#$b#Hard to argue with that.$5"
+He turns away.
+Tristan: "I tried to help you, you know. But there's only so much I could do with four paws. And dropping dead mice in your beer and pushing cans off the table wasn't enough of a hint.
+Shane emote !
+Shane: "Cats are jerks. That doesn't prove anything."
+Tristan turns back to Shane.
+Tristan: 
+(Tristan: "She'd read to me, and we'd pretend to be wild things. She loves monsters, even back when she was scared of the dark. Her favorite color is green. She loves melon cake, and fairy roses, and made me promise to never hunt blue jays in case I hurt her friend Jeremy. As if i'd ever do anything to upset her!")
+Shane turns away.
+Tristan: "What happened between us? We were best friends... Roomies... Blood brothers! And now it's like we're strangers."
+Shane: "What happened? YOU dated my sister. And you abandoned her. Abandoned us."
+Shake Shane.
+Jump Tristan.
+Tristan: "I miss her too, Shane. Like an ache in my heart that nothing'll ever fill.#$b#It was easier, as a cat... They don't feel the way people do.#$b#She's my daughter, Shane. And I want to be her dad... but I'm never going to take her away from you. I promise.#$b#A lot of kids have two parents, after all; some even have two dads.#$b#But I'd rather be the kind that actually talk to each other.#$b#So... truce?"
+Shane emote ...
+pause 1000/
+textAboveHead Shane \"Truce\"/
+showFrame Shane 26
+***
+
+Marnie:
+
+Farmer is talking to Jas
+speak Jas \"He'll be over soon. He promised!$4\"/
+pause 500
+Marnie is talking to someone.
+playSound stairsDown
+textAboveHead Jas \"He's here!\"/
+move farmer true
+move Jas true
+pause 500
+follow them with viewport/
+faceDirection Marnie 2/faceDirection farmer 2
+textAboveHead Marnie \"Come in!\"/
+playSound doorOpen
+warp MisterGinger into door way
+showFrame Marnie shocked (if that exists) otherwise jump Marnie 7
+textAboveHead Marnie \"Tristan?\"
+move Marnie speed 5 towards Tristan
+move Tristan towards Marnie
+speak Tristan \"I'm back!$1#$b#Not that I was ever really gone.$4\"/
+speak Marnie \"We thought you were dead... Jas said... but... well...\"/
+move Jas 
+speak Jas \"You didn't believe me. That's okay.$4\"/
+faceDirection Marnie 3/
+speak Marnie \"Oh Jas!\"/
+faceDirection Marnie 2/
+speak Marnie \"It is rather hard to believe, that you were here, all the time.#$b#Oh the things you must've seen!$l\"/
+speak MisterGinger \"Your secrets are safe with me, Miss Marnie.#$b#Well, as long as you keep making those delicious fluffy omelets.$6\"/
+emote Marnie 60/
+speak Marnie \"Oh, you always were quite a charmer; even as Mr Ginger.#$b#Yes, of course I believe you. This IS Stardew Valley, after all.#$b#Welcome home Tristan.\"/
+speak MisterGinger \"Oh Marnie, it's so good to be back, to be me again. And it's all thanks to Jas and @.\"/
+
+
+

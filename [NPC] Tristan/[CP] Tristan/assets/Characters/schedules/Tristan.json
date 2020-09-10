@@ -1,0 +1,27 @@
+{ "Entries": {
+//East Scarpe schedule
+"rain":"0900 ESHouse1 20 19 0/1200 ESHouse1 7 18 misterginger_knit/1600 ESHouse1 20 19 0/1700 ESHouse1 21 20 2/1900 ESHouse1 24 7 1/2200 ESHouse1 23 4 2 misterginger_sleep",
+"spring_28": "900 ESHouse1 20 19 0/1200 Town 56 21 0/1700 Town 47 88 0/2000 ESHouse1 23 4 2 misterginger_sleep",
+"summer_Mon":"800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1800 AdventureGuild 9 16 1",
+"Mon": "0800 Forest 41 10 2/1510 AnimalShop 14 16 0/1530 AnimalShop 3 7 3/2000 AdventureGuild 9 16 1",
+"Tue": "800 ESHouse1 20 19 0/1100 EastScarpe 26 60 2/1300 EastScarpe 30 117 2/1500 EastScarpe 66 52 1/1700 Saloon 20 19 3/2000 AdventureGuild 9 16 1",
+"Wed": "800 ESHouse1 20 19 0/1100 EastScarpe 26 60 2/1300 EastScarpe 30 117 2/1600 AnimalShop 3 7 2/2000 AdventureGuild 9 16 1",
+"spring_Thu":"GOTO Mon",
+"summer_Thu":"800 Forest 92 21 1/1320 Beach 37 20 2/1600 AnimalShop 23 15 1/1800 WizardHouse 2 17 2",
+"fall_Thu":"GOTO Mon",
+"winter_Thu":"GOTO Mon",
+"winter_15":"0800 Forest 41 10 2/1300 Town 39 57 2/1600 Beach 22 24 2 \"Strings\\schedules\\MisterGinger:winter_15.001\"/2330 ESHouse1 23 4 2 misterginger_sleep",
+"winter_18":"GOTO Tue",
+"Fri": "800 ESHouse1 20 19 0/1100 EastScarpe 26 60 2/1300 EastScarpe 30 117 2/1600 AnimalShop 5 6 2/2100 AnimalShop 3 7 2/2120 AdventureGuild 9 16 1",
+"Sat": "700 Forest 92 23 0/1030 Town 32 91 0/1200 EastScarpe 55 84 misterginger_knit/1640 EastScarpe 14 90 2/1900 ESHouse1 22 22 3/2100 ESHouse1 13 4 1/2200 ESHouse1 23 4 2 misterginger_sleep",
+"Sun": "800 Town 48 87 0/1200 ESHouse1 7 18 misterginger_knit/1600 ESHouse1 20 19 0/1700 ESHouse1 21 20 2/2050 ESHouse1 16 4 3/2150 ESHouse1 9 19 0/2300 ESHouse1 23 4 2 misterginger_sleep",
+"Thu": "GOTO Mon",
+"summer_Sun": "800 Town 48 87 0/1200 EastScarpe 55 84 misterginger_knit/1600 ESHouse1 20 19 0/1700 ESHouse1 21 20 2/1900 ESHouse1 7 19 2/2050 ESHouse1 16 4 3/2150 ESHouse1 9 19 0/2300 ESHouse1 23 4 2 misterginger_sleep",
+"spring_Sun": "800 Town 48 87 0/1200 ESHouse1 7 18 misterginger_knit/1600 ESHouse1 20 19 0/1700 ESHouse1 21 20 2/2050 ESHouse1 16 4 3/2150 ESHouse1 9 19 0/2300 ESHouse1 23 4 2 misterginger_sleep",
+"fall_Sun": "800 Town 48 87 0/1200 ESHouse1 7 18 misterginger_knit/1600 ESHouse1 20 19 0/1700 ESHouse1 21 20 2/2050 ESHouse1 16 4 3/2050 ESHouse1 9 19 0/2300 ESHouse1 23 4 2 misterginger_sleep",
+"Marriage_Fri:": "900 Forest 21 29 2/1300 Town 86 103 2/1620 Town 18 94 0/1750 AnimalShop 7 16 2/2430 BusStop -1 23 3"	
+	
+
+}
+
+}

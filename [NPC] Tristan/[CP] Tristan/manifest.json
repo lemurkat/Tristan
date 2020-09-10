@@ -1,0 +1,12 @@
+ {
+    "Name": "NPC Tristan",
+   "Author": "Lemurkat",
+   "Description": "Unlocks the NPC Tristan",
+   "Version": "1.0.0",
+   "UniqueID": "Lemurkat.Tristan.CP",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+   
+   
+}

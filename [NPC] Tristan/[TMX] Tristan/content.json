@@ -1,0 +1,69 @@
+{
+"loadLate": true,    
+
+"addMaps": [   
+     
+      {
+        "name": "FairyPool",
+        "file": "assets/FairyPool.tmx"
+      },
+      {
+        "name": "SecretCave",
+        "file": "assets/SecretCave.tmx"
+      },
+  {
+        "name": "ESHouse1",
+        "file": "assets/TristanHouse2.tmx"
+      },
+     
+  ],
+
+
+"mergeMaps": [
+    {
+      "name": "Woods", 
+    "file": "assets/Woods-Patch.tmx",
+    "position": [0,5] 
+      },
+{
+      "name": "EastScarpe", 
+    "file": "assets/EastScarpeTristan2.tmx",
+    "position": [9,36],
+	"conditions": "e 5295000"
+	
+      },
+  ],
+   "onlyWarps":[
+      {
+        "name": "Woods", 
+        "addWarps": [
+          "0 11 FairyPool 39 26 0 12 FairyPool 39 27"
+        ]
+      },
+/*{
+        "name": "EastScarpe", 
+        "addWarps": [
+          "16 46 ESHouse1 23 20"
+        ]
+      },*/
+     
+    {
+       "name": "SecretCave", 
+       "addWarps": [
+         "8 18 FairyPool 17 17"
+        ]
+  
+      }
+   ],
+
+   "spouseRooms": [
+              {
+            "name": "MisterGinger",
+                "file": "assets/SpouseRoomTristan.tmx"
+          }
+
+
+
+  ]
+  }
+  

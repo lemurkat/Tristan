@@ -1,0 +1,32 @@
+{
+    "Changes": [
+
+{   "LogName": "Edits Jas schedule",   "Action": "EditData",  
+    "Target":  "Characters/schedules/Jas",
+    "Entries": {
+        "Sat": "1000 Forest 91 22 1/1030 Town 31 89 1/1200 Town 24 12 jas_jumprope/1600 Town 17 13/1620 Town 53 72 0/1740 ESHouse1 18 22 1/2050 ESHouse1 15 4 jas_sleep", 
+        "summer_Sun": "0900 Town 47 87 0/1200 EastScarpe 53 89 2/1600 ESHouse1 22 22 3/1900 ESHouse1 15 4 jas_sleep",
+        "Sun": "0900 Town 47 87 0/1200 ESHouse1 3 20 jas_read/1700 ESHouse1 22 22 3/1900 ESHouse1 6 20 1/2040 ESHouse1 15 4 jas_sleep"
+                            }
+                                },
+{   "LogName": "Edits Eloise schedule",   "Action": "EditData",  
+    "Target":  "Characters/schedules/Eloise",
+    "Entries": 
+            {"Sun": "700 VetHouse 30 14 1/900 VetHouse 30 25 3 \"Strings\\schedules\\Eloise:vethouse.000\"/1030 EastScarpe 55 89 2/1200 EastScarpe 18 54 2/1400 ESHouse1 2 21 0 Eloise_kneel/1700 ESHouse1 18 22 1/1900 VetHouse 33 23 2",
+	     "summer_Sun": "700 VetHouse 30 14 1/900 VetHouse 30 25 3 \"Strings\\schedules\\Eloise:vethouse.000\"/1100 EastScarpe 36 39 2/1210 EastScarpe 55 89 2/1600 EastScarpe 18 54 2/1700 ESHouse1 18 22 1/1900 VetHouse 33 23 2"
+                                    }
+                           },
+{   "LogName": "Edits Jacob schedule",   "Action": "EditData",  
+    "Target":  "Characters/schedules/Jacob",
+    "Entries": 
+            {"Sun": "700 VetHouse 34 14 3/900 EastScarpe 19 15 0/1030 EastScarpe 54 88 2/1200 EastScarpe 20 54 2/1340 EastScarpe 41 45 0/1400 EastScarpe 25 9 0/1600 VetHouse 31 5 0/2200 VetHouse 20 4",
+	     "summer_Sun": "700 VetHouse 34 14 3/900 EastScarpe 25 9 0/1130 EastScarpe 35 39 2/1210 EastScarpe 54 85 2/1600 EastScarpe 20 54 2/1700 ESHouse1 19 20 2/1900 VetHouse 20 4"
+                                                }              
+                                  },
+/*{   "LogName": "Tristan'sHouse", "Action": "EditMap",
+    "Target": "Maps/EastScarpe",
+    "FromFile": "assets/Maps/EastScarpeTristan2.tmx",
+    "ToArea": { "X": 9, "Y": 36, "Width": 15, "Height": 11  }
+            }*/
+                                ]
+                                }

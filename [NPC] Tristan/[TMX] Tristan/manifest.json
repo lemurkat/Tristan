@@ -1,0 +1,12 @@
+{
+    "Name": "Fairy Pool and Tristan",
+    "Author": "LemurKat",
+    "Version": "1.1.0",
+    "Description": "Adds Tristan's areas to the game.",
+    "UniqueID": "LemurKat.Tristan.TMX",
+   "ContentPackFor": {
+      "UniqueID": "Platonymous.TMXLoader",
+      "MinimumVersion": "1.4.0"
+              }
+      
+    }
