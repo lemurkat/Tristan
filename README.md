@@ -20,6 +20,7 @@ CURRENTLY INCLUDED:
 - conversational dialogue from various NPCs
 - his house in East Scarpe
 - marriage dialogue
+- new 10-heart event for Mr Ginger
 
 TO COME:
 - 14-heart event
